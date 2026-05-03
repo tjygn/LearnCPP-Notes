@@ -17,5 +17,8 @@ int main() {
     std::cout << volume;
     std::cout << height;
 
+    [[maybe_unused]] int variable {3};
+
+
     //the program works even though I deleted the return 0
 }
